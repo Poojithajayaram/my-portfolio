@@ -1,0 +1,93 @@
+body{
+    font-size: 15;
+    margin:0;
+    font-family:monospace;
+}
+header{
+    color:white;
+    height: 100vh;
+    background-color: rgb(0, 174, 255);  
+    position:static; 
+}
+header {
+    margin:0;
+    color:blanchedalmond;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    color:black;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+img{
+    height: 200px;
+}
+section{
+    margin-bottom: 20px;
+    padding:20px;
+    height: 100vh;
+    background-color: whitesmoke;
+    border:1px solid black;
+    border-radius: 1cm;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Submit{
+    height: 25px;
+    width: 100px;
+    border:2px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    background-color:dodgerblue;
+}
+.Submit:hover{
+    cursor:pointer;
+    color: white;
+    background-color:dodgerblue;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    height:25px;
+
+}
+footer{
+    height: 140px;
+    background-color: black;
+    color:grey
+}
+
+.top{
+    height: 70px;
+    width: 70px;
+    border:2px;
+    border-radius: 50px;
+    cursor: pointer;
+    color:white;
+    background-color:dodgerblue;
+    position: fixed;
+    bottom:0;
+    right:0;
+    border-color: black;
+}
+main{
+    font-size: medium;
+}
