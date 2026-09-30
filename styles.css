@@ -10,12 +10,13 @@ header{
     position:static; 
 }
 header {
-    margin:0;
+    margin: 1px;;
     color:blanchedalmond;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 h1{
     font-size: 50px;
